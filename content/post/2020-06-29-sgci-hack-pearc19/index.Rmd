@@ -1,0 +1,22 @@
+---
+title: SGCI Hack@PEARC19
+author: Nicole Brewer
+date: '2020-07-20'
+slug: sgci-hack-pearc19
+categories: ['conference']
+tags: ['science gateways', 'sgci', 'hackathon', 'volunteering']
+subtitle: ''
+summary: "In conjunction with PEARC19 in Chicago, SGCI sponsored a Hackathon to challenge up-and-coming programmers for tomorrow's science gateways. Undergraduate and graduate students competed on gateway projects established by SGCI partners and community members."
+authors: ['admin']
+lastmod: '2020-07-20T10:57:59-04:00'
+featured: yes
+image:
+  caption: 'The PEARC19 SGCI Hackathon is off to a great start with 4 teams of students and some wonderful mentors and volunteers!'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+https://sciencegateways.org/web/wd/hackathon-2019

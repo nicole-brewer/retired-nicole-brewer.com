@@ -1,0 +1,55 @@
+---
+title: Who is Women in HPC?
+author: Nicole Brewer
+date: '2020-06-29'
+slug: who-is-women-in-hpc
+categories: []
+tags: ["Women in HPC", "HPC", "Research Computing", "Mathematics", "Computer Science", "Research"]
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-29T15:26:04-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+# Who is Women in HPC?
+
+## How do you identify as a Woman in HPC?
+
+When you are young, you think that non-linear career paths are the exception, not the rule. Certainly when I was getting close to graduation, I felt stressed that I didn't have a clear career path in mind that was
+
+My journey into HPC has always been rooted in an interest for science. In undergrad, I bounced around majors for many years, always fascinated by psychology, biology, physics, and chemistry, but not seeing a career path in them that appealed to me. At the time, I hadn't had a positive research experience, and I didn't want one because it seemed to me that research would just be just like my lab classes: following rote science experiment recipes in flourescent lighting in a dank, windowless basement. Then I thought I would try engineering, because engineers studied science too, but they got to be creative and their diploma translated into a well-paying job.
+
+Because of this, I happened into my first programming course for engineers completely by accident. After years of transience, I immediately got the sense that I was supposed to be a software engineer. While all the other future scientist and engineers in the class were bemoaning missing semicolons, I was entranced by how powerful it was to have the computer excute the recipe for you. And you could even chose to program in a room with a large window. So I switched into math and computer science and still feel so fortunate that I found my true calling.
+
+My first experience with HPC was when I did my first mathematics research project. Basically I was running a program that was unpredictibly computation-heavy to create data points in a large set. The fun part for me was using the Purdue cluster, Halstead, to parallelize these runs. The problem was trivial, but learning how to utilize a supercomputer with a batch system was exciting. It was then that I started attending WHPC meetings, and learning about all the research enabled by HPC.
+
+After concluding my research, I got my first software engineering internship in industry. I learned a lot of valuale lessons about legacy software, the importance of testing in production, and how much I disliked Windows, but I just wasn't experiencing the magic of discovery that I had in research. At the same time I continued to attend WHPC meetings. In one of these meetings, we went around the room and each shared how our research and how it was related to HPC. Afterward, Carol and our former co-founder, Gladys came up to me and encouraged me to submit a poster to the Research Computing conference PEARC. 
+
+Realizing this was a big breakthrough for me, because I realized I could use software engineering to enable the science. 
+
+it was there that I was encouraged to submit my research to the research computing conference, PEARC.
+
+## What does your professional role in HPC look like?
+
+All the software I work on is directly related to supporting research. Sometime the software is related to HPC and sometimes it isn't, but at the very least when I'm working with researchers, I know when to point them towards an HPC resource and 
+
+
+
+I see HPC as the forfront of this intersection
+o	How did your career path lead you to HPC?
+2.	What does your professional role look like on a daily basis? (talk about grants, day job, partnerships & interactions, research, history....)
+o	Why do you like working in the HPC/research computing space.
+o	What limitations do you encounter?
+o	What challenges have you have you faced along the way?
+3.	Audience Questions OR What are your hopes for this Chapter of Women in HPC?
+4.	Audience Questions OR Best career advice you’ve ever heard?
+
+•	Tsaiwei & Nicole - Ways to get involved on what this group could do / where do you need help / how or ways to grow this – clubs to work with?
+
+
