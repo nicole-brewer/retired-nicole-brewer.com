@@ -1,7 +1,9 @@
 ---
 authors:
 - admin
-bio: I am a software engineer in Research Computing and co-chair of Women in HPC at Purdue University. I work in the scientific solutions group where I develop research software and science gateways.
+bio: I am a software engineer in Research Computing and co-chair of Women in HPC at
+  Purdue University. I work in the scientific solutions group where I develop research
+  software and science gateways.
 education:
   courses:
   - course: BS in Mathematics with Computer Science
@@ -14,7 +16,7 @@ interests:
 - Advanced Computing
 organizations:
 - name: Research Computing at Purdue University
-  url: "https://www.rcac.purdue.edu/"
+  url: https://www.rcac.purdue.edu/
 role: Software Engineer
 social:
 - icon: envelope

@@ -1,0 +1,43 @@
+---
+# Experience widget.
+widget: "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless: true  # This file represents a page section.
+active: true  # Activate this widget? true/false
+weight: 20  # Order that this section will appear.
+
+title: "Experience"
+
+# Date format for experience
+#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
+date_format: "Jan 2006"
+
+experience:
+  - title: "Software Engineer"
+    company: "Purdue University"
+    company_url: ""
+    location: "West Lafayette, IN"
+    date_start: "2019-02-04"
+    date_end: ""
+    description: |
+      - Improved code performance and implemented versioned packaging in R to facilitate research software development
+      - Transform scientific data acquisition and processing scripts into modular and reusable classes
+      - Designed a dynamic Solr schema to index and query layered geospacial and user-defined metadata
+      -  Implemented interactions with this database in a web application in PHP and JavaScript
+      - Created a Jupyter notebook analyze supercomputing cluster job performance data using Elasticsearch queries
+      - Wrote data connectors and processors for the science gateway GeoEDF to connect geospatial datasets to web-enabled development tools and apply transformations to this data. Used third-party libraries and APIs such as Requests, QyQGIS, GDAL, and MongoDB.
+      - Implemented a scalable queue-based file processing system deployed on a distributed system with Kubernetes.  Implemented metadata extraction using open source geospacial libraries. Designed a Solr schema to support multilayered geospacial files and dynamic, user-defined fields. Modified existing metadata editor in a pre-existing CMS to support this Solr schema. Implemented all interactions with the Solr database in CMS.
+      - Served as principle software engineer in a research group creating a statistical software for psychologists performing power analysis. Managed package implementation and provided scientists and statisticians with instuctional guides for contributing code, documentation, and vingettes. Developed a highly dynamic user interface in Jupyter that heavily interacted with the R package developed by the group. 
+      - Created several Jupyter notebooks demonstrating complex queries to an Elasticsearch database containing Conte supercomputing cluster performance data. Performed analyses such as bucketing and time series to visualize and yield insights about job failures.
+  - title: "Software Verification Engineer"
+    company: "Aptiv"
+    company_url: "https://www.aptiv.com/"
+    location: "Purdue Research Park"
+    date_start: "2017-11-01"
+    date_end: "2018-11-01"
+    description: |
+      - Maintained and expanded upon legacy applications in C\# that utilized CAN bus protocol communications to verify serial variable data
+      - Developed comprehensive Unit Test projects to verify solutions in conjunction with automotive controller hardware on test bench
+      - Interfaced with Delphi Engineers at the Kokomo and Mexican Technical Centers to develop software solutions and troubleshoot errors with remote users
+      - Deployed a first time verification tool to test automotive controler hardware via unit testing in Visual Studio
+
+---

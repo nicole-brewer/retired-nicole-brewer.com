@@ -1,0 +1,68 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+
+<div class="row list">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+  
+  {{ $width := div 12 $page.Params.columns }}
+  {{ $num_items := len $page.Params.list_items }}
+  {{ $per := div $num_items $page.Params.columns }}
+  {{ $mod := mod $num_items $page.Params.columns }}
+  {{ $end := 0 }}
+  
+  <div class="container">
+    <div class="row justify-content-around">
+    {{ range (seq $page.Params.columns) }}
+    
+      <div class="col-sm-{{ $width }} list">
+      {{ $start := add $end 1}}
+      {{ $end := add $start $per }}
+      {{ if le . $mod}}
+        {{ $end := add $end 1}}
+      {{ end }}
+      {{ range (seq $start $end) }}
+      
+      {{ $index := sub . 1}}
+      {{ $item := index $page.Params.list_items $index }}
+      {{ $pack := or $item.icon_pack "fas" }}
+      {{ $pack_prefix := $pack }}
+      {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+      {{ end }}
+      <div class="row align-items-center list-item">
+        <div class="col-sm-4">
+          {{- if eq $pack "emoji" -}}
+            <div class="list-item-item list-icon">{{- $item.icon | emojify -}}</div>
+          {{- else if eq $pack "custom" -}}
+            {{- $svg_icon := resources.Get (printf "images/icon-pack/%s.svg" $item.icon) -}}
+            {{- if $svg_icon -}}<img src="{{ $svg_icon.RelPermalink }}" alt="{{.icon}}" class="svg-icon svg-baseline list-item-item list-icon">{{- end -}}
+          {{- else -}}
+            <i class="{{ $pack }} {{ $pack_prefix }}-{{ $item.icon }} fa-2x list-item list-icon"></i>
+          {{- end -}}
+          </div>
+        <h3 class="col-sm-8 list-item-item list-name">{{ $item.name | markdownify | emojify }}</h3>
+      </div>
+     
+    {{ end }}
+    </div>
+  
+  {{ end }}
+  </div>
+  </div>
+
+
+ 
+</div>
+

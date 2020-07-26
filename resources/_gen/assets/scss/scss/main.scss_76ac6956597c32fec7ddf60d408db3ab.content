@@ -9169,3 +9169,13 @@ div.mermaid {
  **************************************************/
 html[dir="rtl"] body {
   text-align: right; }
+
+.list {
+  list-style-type: none;
+  margin-bottom: 0; }
+
+.list-item-item {
+  padding: 0 10px 0 10px; }
+
+.list-name {
+  margin: 0; }

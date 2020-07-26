@@ -1,0 +1,7 @@
+
+# changing the URL path of posts from post/ to blog/
+# add aliases = ["/blog/"] to your post archive page at post/_index.md
+
+[permalinks]
+    post = "/blog/:slug"
+    

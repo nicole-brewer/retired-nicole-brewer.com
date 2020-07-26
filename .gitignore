@@ -6,6 +6,9 @@ public/
 # awesome-cv
 awesome-cv/*
 
+# auto-created
+resources/_gen/
+
 # History files
 .Rhistory
 .Rapp.history

@@ -10,7 +10,7 @@ title = "Catch Me Coding"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://www.nicole-brewer.com"
+baseurl = "https://nicole-brewer.github.io/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
@@ -47,7 +47,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   tags = "/blog/tag/:slug/"
   categories = "/blog/category/:slug/"
   # publication_types = "/publication-type/:slug/"
-  blog = "/blog/:slug"
+  post = "/blog/:slug/"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]

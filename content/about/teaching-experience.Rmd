@@ -1,0 +1,20 @@
+---
+widget: accomplishments
+headless: true
+active: true
+weight: 70
+title: Teaching Experience
+subtitle: ''
+date_format: Jan 2006
+item: 
+  - organization: Object-Oriented Programming in Java
+    organization_url: ''
+    title: Undergraduate Teaching Assistant
+    url: ''
+    date_start: '2016-08-01'
+    date_end: '2017-05-01'
+    description: |
+      - Taught object oriented programming in Java, debugging In Intellij, JUnit Testing, and app development in Android Studio in laboratory
+      - Collaborated with other TA’s to effectively communicate programming concepts and reinforce lecture material to students
+ 
+---

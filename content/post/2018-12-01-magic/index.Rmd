@@ -1,0 +1,30 @@
+---
+title: Mentors for Aspiring Girls in Computing
+author: Nicole Brewer
+date: '2020-06-29'
+slug: who-is-women-in-hpc
+categories: ["Mentorship & Volunteerism"]
+tags: ["Women in STEM", "Mentorship", "Diversity & Inclusion"]
+subtitle: ''
+summary: ''
+authors: ['admin']
+lastmod: '2020-06-29T15:26:04-04:00'
+featured: yes
+image:
+  caption: 'The Mentors for Aspiring Girls in Computing (MAGIC) program attempts to increase interest in technology career paths among young women.'
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+In the fall of my senior year, I serendipitously came across a one credit hour class where undergraduate students like myself went to local middle and high schools to mentor young women in in after-school coding clubs. I didn't really need the credit hour, but I've always enjoyed working with kids and promoting the representation of women in STEM, so I signed up for Mentors for Aspiring Girls in Computing (MAGIC) right away.
+
+The instructor, my now friend Phil Sands, took a very hands-off approach and let us do the lesson and activity planning. As I've learned time and again, teaching engagingly is not easy; it's a skill improved by practice. It was often difficult to cator to a range of skill levels, and getting any sort of visual or verbal feedback often seemed impossible, which meant it was hard to talk with the kids instead of at them.
+
+{{< tweet 1070824487426449413 >}}
+
+As challenging as it was to get through to the young women, it was equally rewarding. I got to share my unique experiences using computing to enable math and science, and even if they didn't appreciate what that mean at the time, a few might be more informed of their choices of the future. Certainly, if I had been told what bioinformatics was when I was their age, I would have been well equipped to turn my junior year biology major into a career that wasn't medical school, instead of taking three extra years to figure that out for myself.
+
+{{< figure src="teaching.jpg" title="Teaching the math of JS animation" lightbox="true" >}}
+
+Perhaps the simplest and most impactful part of the program is that we got to influence the girls' perceptions on what a software engineers look like, and created an environment where they didn't feel a sense of exclusion based on normative stereotypes. I'm proud to have been a part of it.
