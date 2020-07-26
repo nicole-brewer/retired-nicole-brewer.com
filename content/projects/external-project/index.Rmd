@@ -1,0 +1,16 @@
+---
+date: "2016-04-27T00:00:00Z"
+external_link: http://www.nicole-brewer.com/testsheets 
+image:
+  caption: ""
+  focal_point: Smart
+summary: Test sheets allows you to turn spreadsheets into [testthat] test cases via spreadsheets on Google Drive, or your local computer. Both Google Sheets and Excel spreadsheets are supported.
+tags:
+  - R
+title: Testsheets
+---
+
+```{r, eval=TRUE, echo=FALSE, results='asis'}
+output <- base::system("curl https://raw.githubusercontent.com/nicole-brewer/testsheets/master/README.md", intern = TRUE)
+knitr::combine_words(output, sep='\n')
+```
