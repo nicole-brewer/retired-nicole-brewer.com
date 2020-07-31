@@ -13,11 +13,11 @@ interval: false
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height: ""
+height: "750px"
 
 # Slides.
 # Duplicate an `[[item]]` block to add more slides.
-item:
+item: 
   - title: ""
     content: ""
     align: "center"  # Choose `center`, `left`, or `right`.

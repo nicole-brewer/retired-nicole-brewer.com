@@ -13,14 +13,5 @@ item:
     url: 'https://www.itap.purdue.edu/newsroom/180905_BrewerPEARC.html'
     date_start: '2018-10-01'
     date_end: ''
-    description: 'Participated in student modeling challenge where teams of four students modified Python code to study a series of scientific research questions and presented their findings. Presented poster, “Classification of Periodicity in Subtraction Game Sequences,” for which I and my advisor, Mark Daniel Ward, a professor of statistics, received the Phil Andrews Award for Most Transformative Contribution to PEARC18.'
-#  - organization: edX
-##    organization_url: 'https://www.edx.org'
-#    title: Blockchain Fundamentals
-##    url: >-
-#      https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-#    certificate_url: 'https://www.edx.org'
-#    date_start: '2018-03-01'
-#    date_end: ''
-#    description: 'Formulated informed blockchain models, hypotheses, and use cases.'
+    description: 'Participated in student modeling challenge where teams of four students modified Python code to study a series of scientific research questions and presented their findings. Presented poster, “Classification of Periodicity in Subtraction Game Sequences,” for which I and my advisor, Mark Daniel Ward, a professor of statistics, received the Phil Andrews Award for Most Transformative Contribution to PEARC18.' 
 ---

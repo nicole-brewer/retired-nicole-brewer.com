@@ -21,7 +21,7 @@ copyright = "&copy; Nicole Brewer {year}"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "hugo-academic"
+theme = "hugo-academic" 
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -38,16 +38,6 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-
-# Workaround Hugo publishing taxonomy URLs as plurals - consistently use singular across Academic.
-# The file content/posts/sample-entry.md with date: 2017-02-27T19:20:00-05:00 in its front matter will
-# render to public/2017/02/sample-entry/index.html.
-[permalinks]
-  # authors = "/author/:slug/"
-  tags = "/blog/tag/:slug/"
-  categories = "/blog/category/:slug/"
-  # publication_types = "/publication-type/:slug/"
-  post = "/blog/:slug/"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
@@ -83,6 +73,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+  
 
 # Related content.
 [related]

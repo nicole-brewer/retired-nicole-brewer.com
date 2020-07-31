@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "The personal website and cv of the software engineer, triathlete, and podcaster, Nicole Brewer"
 
 ############################
 ## Site Features
