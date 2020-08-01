@@ -1,5 +1,3 @@
-##
-
 # nicole-brewer.github.io
 public/
 
@@ -7,7 +5,7 @@ public/
 awesome-cv/*
 
 # auto-created
-resources/_gen/
+resources/_gen
 
 # History files
 .Rhistory
